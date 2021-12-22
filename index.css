@@ -30,6 +30,10 @@ body {
   display: flexbox;
 }
 
+div > div {
+  position: relative;
+}
+
 .section-2 {
   background-color: rgb(184, 192, 199);
   display: flexbox;
@@ -38,4 +42,19 @@ body {
 .section-3 {
   background-color: rgb(184, 192, 199);
   display: flexbox;
+}
+
+.section-4 {
+  background-color: rgb(184, 192, 199);
+  display: flexbox;
+}
+
+.list-s {
+  background-color: lightslategrey;
+  margin: 0;
+  padding: 0;
+}
+
+.none-dec {
+  list-style-type: none;
 }
