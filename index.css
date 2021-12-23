@@ -10,7 +10,7 @@ html {
 }
 
 section .container {
-  background-color: rgb(162, 170, 177);
+  background-color: rgb(151, 160, 168);
 }
 
 nav {
@@ -36,18 +36,22 @@ nav a:link {
   text-decoration: none;
 }
 
-div > div {
-  position: relative;
-  display: ;
+div {
+  display: block;
 }
 
-.iframe-y {
+div > div {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.adhd-clip {
   border-width: 5px;
   border-color: rgb(83, 88, 94);
   box-shadow: 0px 1px 1px 1px;
 }
 
-.list-s {
+.list-box {
   background-color: rgb(147, 168, 189);
   margin: 10 10;
   padding: 10 15;

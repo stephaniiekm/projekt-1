@@ -44,10 +44,20 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#adhd">NPF</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#adhd"
+                  aria-label="Read more about ADHD"
+                >
+                  [Read more ADHD]> NPF
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#film-clip">Film clip</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#support">Support</a>
               </li>
             </ul>
           </div>
@@ -59,14 +69,17 @@
     <!--START main section-->
     <main>
       <section id="intro" class="section-1 container">
-        <h1>Introduktion</h1>
-
+        <div class="intre">
+          <div>
+            <h1>Introduktion</h1>
+          </div>
+        </div>
       </section>
 
       <section id="adhd" class="section-2 container">
         <div class="grid adhd-1" style="--bs-columns: 4;">
           <h4>What is ADHD?</h4>
-          <hr>
+          <hr />
           <div class="g-col-1 letter-a">
             <p>
               <b>A</b>
@@ -92,34 +105,60 @@
             </p>
           </div>
 
-          <p>
+          <p></p>
+          <span
+            class="list-box"
+            style="word-spacing: 0.1ch; letter-spacing: 0.1rem; line-height: 2;"
+          >
             These are the most common symptoms of ADHD:
-            <ul class="list-s">
+            <ul class="list-box">
               <li>Concentrate</li>
               <li>Scattered</li>
               <li>Restless</li>
               <li>Outspoken</li>
-              <li>Reinforced emotional</li>
-              <ul>
-                <li>If you get sad, you get extremely sad</li>
-                <li>If you are happy, you will be extremely happy</li>
-                <li>If you get angry, you get extremely angry</li>
-                <li>If you fall in love, you fall extremely in love</li>
-                <li class="none-dec"><i>And the mood can also change quickly</i></li>
-              </ul>
+              <li>
+                Reinforced emotional
+                <ul>
+                  <li>If you get sad, you get extremely sad</li>
+                  <li>If you are happy, you will be extremely happy</li>
+                  <li>If you get angry, you get extremely angry</li>
+                  <li>If you fall in love, you fall extremely in love</li>
+                  <li class="none-dec">
+                    <i>And the mood can also change quickly</i>
+                  </li>
+                </ul>
+              </li>
               <li></li>
             </ul>
-          </p>
+          </span>
         </div>
       </section>
 
-      <section id="" class="section-3 container">
-        <h3>Section2</h3>
-        <iframe class="iframe-y" width="722" height="406" src="https://www.youtube.com/embed/cx13a2-unjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <section id="film-clip" class="section-3 container">
+        <h3>Learn more with YouTube:</h3>
+        <iframe
+          class="adhd-clip"
+          width="722"
+          height="406"
+          src="https://www.youtube.com/embed/cx13a2-unjE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        >
+          YouTube film clip about ADHD.
+        </iframe>
       </section>
-      <section id="" class="section-4 container">
-        <h3>Section3</h3>
-        <a href=" " target="_blank" rel="help">Read more about ADHD</a>
+      <section id="support" class="section-4 container">
+        <h3>How can you get or give support?</h3>
+
+        <a
+          href="https://www.healthline.com/health/adhd"
+          target="_blank"
+          rel="help"
+        >
+          Read more about ADHD
+        </a>
       </section>
     </main>
     <!--END main section-->
