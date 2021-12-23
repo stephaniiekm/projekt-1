@@ -1,5 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section .container {
+  background-color: rgb(162, 170, 177);
+}
+
 nav {
   background-color: rgb(156, 172, 189);
+  font-size: 15px;
 }
 
 .nav-link {
@@ -20,39 +36,22 @@ nav a:link {
   text-decoration: none;
 }
 
-body {
-  font-family: 'Arial Narrow', 'Franklin Gothic Medium', Arial, sans-serif;
-  font-size: medium;
-}
-
-.section-1 {
-  background-color: rgb(184, 192, 199);
-  display: flexbox;
-}
-
 div > div {
   position: relative;
+  display: ;
 }
 
-.section-2 {
-  background-color: rgb(184, 192, 199);
-  display: flexbox;
-}
-
-.section-3 {
-  background-color: rgb(184, 192, 199);
-  display: flexbox;
-}
-
-.section-4 {
-  background-color: rgb(184, 192, 199);
-  display: flexbox;
+.iframe-y {
+  border-width: 5px;
+  border-color: rgb(83, 88, 94);
+  box-shadow: 0px 1px 1px 1px;
 }
 
 .list-s {
-  background-color: lightslategrey;
-  margin: 0;
-  padding: 0;
+  background-color: rgb(147, 168, 189);
+  margin: 10 10;
+  padding: 10 15;
+  box-shadow: 0px 1px 1px 1px;
 }
 
 .none-dec {
