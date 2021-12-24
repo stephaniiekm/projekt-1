@@ -9,8 +9,13 @@ html {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.container {
+  align-content: center;
+}
+
 section .container {
   background-color: rgb(151, 160, 168);
+  align-items: center;
 }
 
 nav {
@@ -38,11 +43,14 @@ nav a:link {
 
 div {
   display: block;
+  width: 50%;
 }
 
 div > div {
   display: inline-flex;
   flex-direction: row;
+  width: 15%;
+  justify-content: space-around;
 }
 
 .adhd-clip {
