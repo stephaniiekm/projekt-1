@@ -1,20 +1,10 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 12px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 .container {
   align-content: center;
+  background-color: lightslategrey;
 }
 
 section .container {
-  background-color: rgb(151, 160, 168);
+  background-color: rgb(225, 232, 238);
   align-items: center;
 }
 
@@ -41,18 +31,6 @@ nav a:link {
   text-decoration: none;
 }
 
-div {
-  display: block;
-  width: 50%;
-}
-
-div > div {
-  display: inline-flex;
-  flex-direction: row;
-  width: 15%;
-  justify-content: space-around;
-}
-
 .adhd-clip {
   border-width: 5px;
   border-color: rgb(83, 88, 94);
@@ -61,6 +39,7 @@ div > div {
 
 .list-box {
   background-color: rgb(147, 168, 189);
+  width: fit-content;
   margin: 10 10;
   padding: 10 15;
   box-shadow: 0px 1px 1px 1px;
@@ -68,4 +47,8 @@ div > div {
 
 .none-dec {
   list-style-type: none;
+}
+
+.none-d-style {
+  text-decoration: none;
 }
