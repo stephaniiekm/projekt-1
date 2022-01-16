@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Montserrat+Subrayada&family=Montserrat:wght@200&display=swap');
+
+/* div */
+div > ul {
+  width: 2%;
+  height: auto 0;
+}
+
 .container {
   align-content: center;
   background-color: #b1c3d4;
@@ -13,6 +21,16 @@
 nav {
   background-color: rgb(156, 172, 189);
   font-size: 15px;
+}
+
+#logo-adhd {
+  font-size: 35px;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  margin: -10px 4px;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  align-self: stretch;
+  justify-content: center;
 }
 
 .nav-link {
