@@ -6,6 +6,23 @@ div > ul {
   height: auto 0;
 }
 
+/* style for section*/
+
+section {
+  background-color: #b1c3d4;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px 10px 5px 10px;
+
+  width: 100%;
+  height: auto;
+
+  margin: 25px auto;
+  padding: 10px;
+}
+
 .container {
   align-content: center;
   background-color: #b1c3d4;
