@@ -2,7 +2,7 @@
   align-content: center;
   background-color: #b1c3d4;
   box-shadow: #000;
-  display: inside-flex;
+  display: flex;
 }
 
 .container > * {
