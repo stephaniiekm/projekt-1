@@ -31,24 +31,22 @@ section {
 
 /* style for container */
 .container {
-  background-color: #232425;
-  display: flex;
-  justify-content: center;
   align-content: center;
-
-  box-shadow: #000;
+  justify-content: center;
+  background-color: #000;
   padding: 25px;
   border: solid;
 }
 
 .container > * {
   background-color: rgb(225, 232, 238);
-  align-items: center;
-  justify-content: center;
 
   width: 100%;
   height: 100%;
   margin: 10% 5% 10 10%;
+
+  align-items: center;
+  justify-content: center;
 }
 
 /* decoration stylings */
@@ -162,10 +160,6 @@ nav a:link {
 footer {
   padding: 1%;
 }
-
-/* media quari */
-/* `xs` returns only a ruleset and no media query
-// ... { ... }*/
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
