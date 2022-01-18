@@ -1,59 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Montserrat+Subrayada&family=Montserrat:wght@200&display=swap');
 
+/* Global Styles */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/* div */
-div > ul {
-  width: 2%;
-  height: auto 0;
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
-/* style for section*/
 
 section {
-  background-color: #b1c3d4;
-  display: flex;
-  justify-content: space-around;
-  align-content: center;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 5px 10px 5px 10px;
-
-  width: 100%;
-  height: auto;
-
-  margin: 25px auto;
-  padding: 10px;
-}
-
-/* style for container */
-.container {
-  align-content: center;
-  justify-content: center;
-  background-color: #000;
-  padding: 25px;
-  border: solid;
-}
-
-.container > * {
-  background-color: rgb(225, 232, 238);
-
-  width: 100%;
-  height: 100%;
-  margin: 10% 5% 10 10%;
-
-  align-items: center;
-  justify-content: center;
+  min-height: 100vh;
+  position: relative;
 }
 
 /* decoration stylings */
 hr {
   border-top: 1px solid #3a3a3a;
   width: 100%;
-  margin: 0 10px 0 0;
+  margin: 0 5px 0 0;
   padding: 10px;
 }
 
@@ -115,6 +85,13 @@ nav a:link {
 
 /* intro - section*/
 
+.intro {
+  background: url('https://images.pexels.com/photos/983830/pexels-photo-983830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .intro-heading {
   padding: 35x;
 }
@@ -126,6 +103,19 @@ nav a:link {
 
 /* adhd - section */
 
+.letter-a {
+  background-color: lightgreen;
+}
+.letter-d {
+  background-color: lightgreen;
+}
+.letter-h {
+  background-color: lightgreen;
+}
+.letter-d-2 {
+  background-color: lightgreen;
+}
+
 /* npf - section */
 
 .none-dec {
@@ -134,7 +124,7 @@ nav a:link {
 
 .list-box {
   background-color: rgba(147, 168, 189, 0.5);
-  width: 50%;
+  width: 100%;
   margin: 10 10;
   padding: 10 15;
   box-shadow: 0px 1px 1px 1px;
