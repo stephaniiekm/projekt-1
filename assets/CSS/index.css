@@ -23,8 +23,6 @@ section {
 hr {
   border-top: 1px solid #3a3a3a;
   width: 100%;
-  margin: 0 5px 0 0;
-  padding: 10px;
 }
 
 /* header section includes navbar*/
@@ -93,7 +91,17 @@ nav a:link {
 }
 
 .intro-heading {
-  padding: 35x;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+  top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .intro-heading h1 {
@@ -103,17 +111,29 @@ nav a:link {
 
 /* adhd - section */
 
+.intro-adhd {
+  margin-top: 96px;
+}
+
 .letter-a {
-  background-color: lightgreen;
+  background-color: rgb(98, 243, 98);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px 10px 5px 10px;
 }
 .letter-d {
-  background-color: lightgreen;
+  background-color: rgb(109, 185, 233);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px 10px 5px 10px;
 }
 .letter-h {
-  background-color: lightgreen;
+  background-color: rgb(238, 238, 121);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px 10px 5px 10px;
 }
 .letter-d-2 {
-  background-color: lightgreen;
+  background-color: rgb(255, 164, 178);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px 10px 5px 10px;
 }
 
 /* npf - section */
@@ -135,7 +155,7 @@ nav a:link {
   border-width: 5px;
   border-color: rgb(83, 88, 94);
   box-shadow: 0px 1px 1px 1px;
-  width: 50%;
+  width: 100%;
 }
 
 /* Support -section Link to another ADHD-side */
@@ -163,6 +183,16 @@ footer {
   .nav-link {
     width: 100%;
     float: flex-end;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 100%;
   }
 }
 
