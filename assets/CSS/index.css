@@ -17,11 +17,22 @@ main {
 section {
   min-height: 100vh;
   position: relative;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
 }
 
 .container {
-  margin-top: 70px;
+  margin-top: 90px;
   word-spacing: 0.1ch;
+}
+
+.li-style {
+  width: 85%;
+  line-height: 25px;
+  margin-top: 15px;
 }
 
 /* decoration stylings */
@@ -31,7 +42,7 @@ hr {
   margin: 5px 0;
 }
 
-/* header section includes navbar*/
+/* HEADER - section includes navbar*/
 nav {
   background-color: rgb(156, 172, 189);
   font-size: 15px;
@@ -87,13 +98,19 @@ nav a:link {
   align-items: flex-start;
 }
 
-/* intro - section*/
+/* INTRO - section */
 
-.intro {
+#intro {
   background: url('https://images.pexels.com/photos/983830/pexels-photo-983830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+.intro-adhd {
+  margin-top: 96px;
 }
 
 .intro-heading {
@@ -112,13 +129,46 @@ nav a:link {
 
 .intro-heading h1 {
   font-size: 60px;
+  font-weight: normal;
   padding: 10px;
 }
 
-/* adhd - section */
+#info-box {
+  font-size: 58%;
+  font-family: Montserrat, sans-serif;
+  text-transform: full-width;
+  font-weight: bolder;
 
-.intro-adhd {
-  margin-top: 96px;
+  letter-spacing: 2px;
+
+  width: 350px;
+  height: 150px;
+
+  padding: 10px 18px 10px 18px;
+  border-radius: 10px 10px;
+  box-shadow: 3px 2px 2px 1px rgb(68, 167, 93);
+
+  background-color: rgba(122, 243, 142, 0.7);
+
+  bottom: -60px;
+  right: 30px;
+  top: 275px;
+
+  position: absolute;
+}
+
+.info-box p {
+  white-space: pre-line;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+/* ADHD - section */
+
+#adhd {
+  top: 150px;
 }
 
 .letter-a,
@@ -157,9 +207,9 @@ nav a:link {
 }
 
 .list-box {
-  background-color: rgba(147, 168, 189, 0.5);
-  width: 100%;
-  margin: 10 10;
+  background-color: rgba(230, 239, 248, 0.336);
+  width: 90%;
+  margin: 20 10;
   padding: 10 15;
   box-shadow: 0px 1px 1px 1px;
 }
@@ -178,6 +228,7 @@ nav a:link {
 .none-d-style {
   text-decoration: none;
   text-align: center;
+  color: #3a3a3a;
 }
 
 /* Footer section */
