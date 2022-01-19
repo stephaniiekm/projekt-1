@@ -12,6 +12,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  top: 5%;
 }
 
 section {
@@ -245,6 +246,11 @@ footer {
     flex-wrap: nowrap;
   }
 
+  .container {
+    margin-top: 80px;
+    word-spacing: 0.1ch;
+  }
+
   .nav-link {
     width: 100%;
     float: flex-end;
@@ -260,9 +266,8 @@ footer {
     width: 100%;
   }
 
-  .container {
-    margin-top: 80px;
-    word-spacing: 0.1ch;
+  #info-box {
+    font-size: 12px;
   }
 
   .adhd-1 {
