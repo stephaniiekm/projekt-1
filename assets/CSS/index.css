@@ -9,25 +9,28 @@
 
 main {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   top: 5%;
+  /* white-space: pre-line; */
+  justify-content: center;
 }
 
 section {
   min-height: 100vh;
   position: relative;
   width: 100%;
-
   display: flex;
-  justify-content: space-around;
-  align-content: center;
+  justify-content: space-between;
+  align-content: space-around;
 }
 
 .container {
   margin-top: 90px;
   word-spacing: 0.1ch;
+}
+
+.container div {
+  width: 100%;
 }
 
 .li-style {
@@ -134,36 +137,25 @@ nav a:link {
   padding: 10px;
 }
 
-#info-box {
+#info-box p {
   font-size: 58%;
   font-family: Montserrat, sans-serif;
-  text-transform: full-width;
   font-weight: bolder;
-
   letter-spacing: 2px;
-
-  width: 350px;
-  height: 150px;
-
-  padding: 10px 18px 10px 18px;
-  border-radius: 10px 10px;
-  box-shadow: 3px 2px 2px 1px rgb(68, 167, 93);
-
-  background-color: rgba(122, 243, 142, 0.7);
-
-  bottom: -60px;
-  right: 30px;
-  top: 275px;
-
-  position: absolute;
-}
-
-.info-box p {
-  white-space: pre-line;
   text-align: right;
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
+  align-content: center;
+  width: 350px;
+  height: 150px;
+  padding: 10px 18px 10px 18px;
+  border-radius: 10px 10px;
+  box-shadow: 3px 2px 2px 1px rgb(68, 167, 93);
+  background-color: rgba(122, 243, 142, 0.7);
+  bottom: -60px;
+  right: 30px;
+  position: absolute;
 }
 
 /* ADHD - section */
@@ -247,7 +239,7 @@ footer {
   }
 
   .container {
-    margin-top: 80px;
+    margin-top: 90px;
     word-spacing: 0.1ch;
   }
 
@@ -312,6 +304,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     flex-wrap: nowrap;
+    align-content: space-around;
   }
   .nav-link {
     width: 100%;
